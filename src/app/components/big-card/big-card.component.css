@@ -1,0 +1,28 @@
+.container__big-card{
+    width: 400px;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 5%;
+}
+
+.big-card__picture img{
+    image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    margin-bottom: 3%;
+    height: auto;
+    object-fit: contain;
+}
+
+.big-card__title > a{
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.big-card__desc > p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(179, 179, 179);
+}
